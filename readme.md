@@ -63,3 +63,8 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 ## Bearer security scanner
 
 1. [bearer scan integration](https://docs.bearer.com/quickstart/)
+
+## Lint-staged
+
+1. [lint-staged integration](https://duncanlew.medium.com/getting-started-with-husky-and-lint-staged-for-pre-commit-hooks-c2764d8c9ae)
+
