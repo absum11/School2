@@ -28,11 +28,13 @@
 		"prettier": "3.0.0"
 	},
 	"dependencies": {
+		"custom-logger": "^0.3.1",
 		"dotenv": "^16.3.1",
 		"express": "^4.18.2",
 		"express-list-endpoints": "^6.0.0",
 		"express-rate-limit": "^6.7.1",
 		"helmet": "^7.0.0",
-		"node-cron": "^3.0.2"
+		"node-cron": "^3.0.2",
+		"uuid": "^9.0.0"
 	}
 }

@@ -1,4 +1,5 @@
 const express = require('express')
+const addLogId = require('./middlewares/logger.middleware')
 const helmet = require('helmet')
 const initCron = require('./services/cron')
 const { removeXPoweredBy } = require('./middlewares/headers.middleware')
@@ -23,6 +24,7 @@ app.use(removeXPoweredBy)
 // please refer https://docs.bearer.com/reference/rules/javascript_express_helmet_missing/
 // Helmet can help protect your app from some well-known web vulnerabilities by setting HTTP headers appropriately.
 app.use(helmet())
+app.use(addLogId)
 app.use('/', versionRouter)
 
 module.exports = app

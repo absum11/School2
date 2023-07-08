@@ -1,5 +1,8 @@
+// utils
+const logger = require('../../utils/logger.utils')
+
 const greet = () => {
-	console.log('Hello from Cron')
+	logger.info(__filename, 'Hello from Cron', 'xyz')
 }
 
 module.exports = { greet }
