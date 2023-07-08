@@ -78,3 +78,7 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 1. [Node cron](https://www.npmjs.com/package/node-cron)
 2. [Cron tab guru for understanding cron expressions](https://crontab.guru/)
 
+## Rate limiter
+
+1. [express rate limit](https://www.npmjs.com/package/express-rate-limit)
+
