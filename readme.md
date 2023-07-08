@@ -68,3 +68,8 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 
 1. [lint-staged integration](https://duncanlew.medium.com/getting-started-with-husky-and-lint-staged-for-pre-commit-hooks-c2764d8c9ae)
 
+## Jest
+
+1. [Jest docs](https://jestjs.io/docs/getting-started)
+2. [Jest cheatsheet](https://github.com/sapegin/jest-cheat-sheet)
+

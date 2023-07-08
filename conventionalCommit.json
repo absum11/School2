@@ -45,6 +45,7 @@
 		"library": {},
 		"authentication": {},
 		"settings": {},
-		"commit": {}
+		"commit": {},
+		"utils": {}
 	}
 }
