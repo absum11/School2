@@ -3,6 +3,7 @@
 ## Prettier
 
 1. [prettier installation node](https://prettier.io/docs/en/install.html)
+2. [prettier config options](https://prettier.io/docs/en/options.html)
 
 ## Husky
 
@@ -17,3 +18,7 @@
 ```bash
 npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 ```
+
+## Eslint
+
+1. [eslint installation](https://eslint.org/docs/latest/use/getting-started)
