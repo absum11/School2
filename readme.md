@@ -73,3 +73,8 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 1. [Jest docs](https://jestjs.io/docs/getting-started)
 2. [Jest cheatsheet](https://github.com/sapegin/jest-cheat-sheet)
 
+## Cron
+
+1. [Node cron](https://www.npmjs.com/package/node-cron)
+2. [Cron tab guru for understanding cron expressions](https://crontab.guru/)
+

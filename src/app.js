@@ -1,9 +1,14 @@
 const express = require('express')
 const helmet = require('helmet')
+const initCron = require('./services/cron')
 const { removeXPoweredBy } = require('./middlewares/headers.middleware')
 const versionRouter = require('./routes')
 
 const app = express()
+
+// starting other services
+
+initCron()
 
 // middlewares
 
