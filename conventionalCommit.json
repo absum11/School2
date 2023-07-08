@@ -36,9 +36,9 @@
 		"ci": {
 			"description": "The commit makes changes to continuous integration or continuous delivery scripts or configuration files."
 		},
-        "security": {
-            "description": "Security related changes"
-        }
+		"security": {
+			"description": "Security related changes"
+		}
 	},
 	"scopes": {
 		"app": {},

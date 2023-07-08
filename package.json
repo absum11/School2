@@ -9,7 +9,9 @@
 		"prepare": "husky install",
 		"lint": "npx eslint .",
 		"lint:fix": "eslint --fix",
-		"scan:security": "bearer scan ."
+		"scan:security": "bearer scan .",
+		"start": "node src/index.js",
+		"watch": "nodemon src/index.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -19,6 +21,13 @@
 		"@commitlint/config-conventional": "^17.6.6",
 		"eslint": "^8.44.0",
 		"husky": "^8.0.0",
+		"nodemon": "^2.0.22",
 		"prettier": "3.0.0"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"express-list-endpoints": "^6.0.0",
+		"helmet": "^7.0.0"
 	}
 }
