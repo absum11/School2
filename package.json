@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "husky": "^8.0.0"
   }
 }
