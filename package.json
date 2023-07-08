@@ -1,23 +1,24 @@
 {
-  "name": "school2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "npx prettier . --write",
-    "prepare": "husky install",
-    "lint": "npx eslint .",
-    "lint:fix": "eslint --fix"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
-    "eslint": "^8.44.0",
-    "husky": "^8.0.0",
-    "prettier": "3.0.0"
-  }
+	"name": "school2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "npx prettier . --write",
+		"prepare": "husky install",
+		"lint": "npx eslint .",
+		"lint:fix": "eslint --fix",
+		"scan:security": "bearer scan ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.6",
+		"@commitlint/config-conventional": "^17.6.6",
+		"eslint": "^8.44.0",
+		"husky": "^8.0.0",
+		"prettier": "3.0.0"
+	}
 }
