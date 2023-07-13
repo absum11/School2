@@ -2,7 +2,7 @@ const express = require('express')
 const addLogId = require('./middlewares/logger.middleware')
 const helmet = require('helmet')
 const initCron = require('./services/cron')
-const { removeXPoweredBy } = require('./middlewares/headers.middleware')
+// const { removeXPoweredBy } = require('./middlewares/headers.middleware')
 const versionRouter = require('./routes')
 
 const app = express()
@@ -20,11 +20,12 @@ It can help to provide an extra layer of security to reduce server fingerprintin
 By default, Express.js sends the X-Powered-By response header banner. This can be disabled using the app.disable() method:
 */
 
-app.use(removeXPoweredBy)
+// app.use(removeXPoweredBy)
 // please refer https://docs.bearer.com/reference/rules/javascript_express_helmet_missing/
 // Helmet can help protect your app from some well-known web vulnerabilities by setting HTTP headers appropriately.
 app.use(helmet())
 app.use(addLogId)
+app.disable('x-powered-by')
 app.use('/', versionRouter)
 
 module.exports = app

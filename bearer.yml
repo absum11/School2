@@ -9,11 +9,7 @@ report:
 rule:
   disable-default-rules: false
   only-rule: []
-  skip-rule:
-    [
-      'javascript_express_reduce_fingerprint',
-      'javascript_express_helmet_missing'
-    ]
+  skip-rule: []
 scan:
   context: ''
   data_subject_mapping: ''
